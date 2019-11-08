@@ -26,13 +26,13 @@ public class BouncingBall : MonoBehaviour
 
         if(newY <= .4)
         {
-            gameObject.GetComponent<MeshRenderer>().material.color = new Color(100, 0, 0);
+            gameObject.GetComponent<MeshRenderer>().material.color = new Color(100, 0, 10);
            
         }
 
         if (newY >= -.4)
         {
-            gameObject.GetComponent<MeshRenderer>().material.color = new Color(0, 100, 00);
+            gameObject.GetComponent<MeshRenderer>().material.color = new Color(0, 100, 100);
 
         }
 
